@@ -1,0 +1,11 @@
+============================================================
+		🌺🌺🌺 Student Management System v1.0 🌺🌺🌺
+           
+		◆  1. Add a student
+		◆  2. Delete a student
+		◆  3. Modify a student
+		◆  4. Query a student
+		◆  5. Display all students
+		◆  6. Exit the system
+
+============================================================

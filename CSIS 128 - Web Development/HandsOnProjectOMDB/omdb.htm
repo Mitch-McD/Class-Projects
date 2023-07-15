@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      JavaScript 6th Edition
+      Chapter 11
+      Chapter Hands-on Project
+
+      OMDB Search
+      Author: Mitchell McDaniel
+      Date:   4.18.2021
+
+      Filename: omdb.htm
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Open Movie Database (OMDB) - Movie Search</title>
+   <link rel="stylesheet" media="screen and (max-device-width: 639px)" href="styleshh.css" />
+   <link rel="stylesheet" media="screen and (min-device-width: 640px)" href="styles.css" />
+   <!--[if lt IE 9]>
+      <link rel="stylesheet" href="styles.css" />
+   <![endif]-->
+   <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+   <script src="modernizr.custom.65897.js"></script>
+</head>
+
+<body>
+   <header>
+      <h1><img src="moviereel.png" width="220" height="225" title="" alt="OMDB Api Search" /></h1>
+   </header>
+
+   <article>
+      <h2>Open Movie Database - Movie Title Search</h2>
+      <section class="search">
+      <form>
+         <fieldset>
+            <p>Enter Movie Title: 
+				<input type="search" />
+				<input type="submit" value="Search" />
+			</p>
+         </fieldset>
+      </form>
+      </section>
+      <section class="movieresults">
+         <div class="container">
+            <p class="error"></p>
+            <table>
+               <caption></caption>
+               <thead>
+                  <tr>
+                     <th>Title</th>
+                     <th>Year</th>
+                     <th>Type</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td>&#9728;</td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <p class="credit">Powered by <a href="http://omdbapi.com">OMDB</a></p>
+         </div>
+      </section>
+   </article>
+   <footer><p>&bull; Simple Movie Search &bull;<span></span></p></footer>
+   <script src="omdbscript.js" ></script>
+</body>
+</html>
